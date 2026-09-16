@@ -1,9 +1,9 @@
-EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
+## EXP NO:1 C PROGRAM FOR ARRAY OF STRUCTURE TO CHECK ELIGIBILITY FOR THE VACCINE.
 
-Aim:
+### Aim:
 To write a C program for array of structure to check eligibility for the vaccine person age above 6 years of age.
 
-Algorithm:
+### Algorithm:
 1.	Declare structure eligible with age (integer) and n (character array)
 2.	Declare variable e of type eligible
 3.	Input age and name using scanf, store in e
@@ -14,9 +14,9 @@ Else
 5.	Print details (e.age, e.n)
 6.	Return 0
  
-Program:
+### Program:
 
-````c
+```c
 #include <stdio.h>
 
 struct eligible {
@@ -39,23 +39,26 @@ int main() {
     }
     return 0;
 }
-````
-
-Output:
-
-<img width="568" height="134" alt="image" src="https://github.com/user-attachments/assets/62850c58-574e-4c61-8a9c-6b1e611a4878" />
+```
 
 
-Result:
+### Output:
+
+<img width="568" height="134" alt="image" src="https://github.com/user-attachments/assets/ee5bb1f8-2ef9-4a69-bd1d-8ff37e1406f7" />
+
+
+
+### Result:
 Thus, the program is verified successfully. 
 
+---
 
+## EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
 
-EXP NO:2 C PROGRAM FOR PASSING STRUCTURES AS FUNCTION ARGUMENTS AND RETURNING A STRUCTURE FROM A FUNCTION
-Aim:
+### Aim:
 To write a C program for passing structure as function and returning a structure from a function
 
-Algorithm:
+### Algorithm:
 1.	Define structure numbers with members a and b.
 2.	Declare variable n of type numbers.
 3.	Prompt the user to enter values for a and b.
@@ -64,9 +67,8 @@ Algorithm:
 6.	Print the result returned by the add function.
 7.	Return 0
  
-Program:
-
-````c
+### Program:
+```c
 #include<stdio.h>
 
 struct numbers{
@@ -84,29 +86,29 @@ int main(){
 int add(struct numbers n){
     return n.a+n.b;
 }
-````
-
-
-
-Output:
-
-
-<img width="259" height="298" alt="image" src="https://github.com/user-attachments/assets/99533b27-89c9-4367-b96a-f3912289dd13" />
+```
 
 
 
 
-Result:
+### Output:
+
+<img width="259" height="298" alt="image" src="https://github.com/user-attachments/assets/4272eafa-89bb-4429-bcb7-e5bbc37f25ed" />
+
+
+
+
+### Result:
 Thus, the program is verified successfully
 
-
+---
  
-EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
+## EXP.NO:3 C PROGRAM TO READ A FILE NAME FROM USER AND WRITE THAT FILE USING FOPEN()
 
-Aim:
+### Aim:
 To write a C program to read a file name from user
 
-Algorithm:
+### Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -117,15 +119,14 @@ Use scanf to input the file name into the name array.
 6.	Use fopen to open a file with the name provided by the user in write mode ("w").
 -	If successful, continue to the next step.
 -	If unsuccessful, print an error message and exit the program with a non-zero status.
-1.	Print a message indicating that the file has been opened successfully.
-2.	Use fclose to close the file.
-3.	Print a message indicating that the file has been closed.
-4.	End the main function.
-5.	Return 0 to indicate successful program execution.
+7.	Print a message indicating that the file has been opened successfully.
+8.	Use fclose to close the file.
+9.	Print a message indicating that the file has been closed.
+10.	End the main function.
+11.	Return 0 to indicate successful program execution.
  
-Program:
-
-````c
+### Program:
+```c
 #include <stdio.h>
 int main(){
     FILE *file;
@@ -137,29 +138,26 @@ int main(){
     fclose(file);
     printf("%s File Closed" ,a); 
 }
-````
-
-
-
-Output:
-
-
-<img width="935" height="312" alt="image" src="https://github.com/user-attachments/assets/56897d21-95c4-4f22-acbb-729189c7e919" />
+```
 
 
 
 
+### Output:
+<img width="935" height="312" alt="image" src="https://github.com/user-attachments/assets/d1547267-c312-4618-b441-5dc4c728a43b" />
 
 
-Result:
+### Result:
 Thus, the program is verified successfully
  
+---
 
+## EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
 
-EXP NO:4   PROGRAM TO READ A FILE NAME FROM USER, WRITE THAT FILE AND INSERT TEXT IN TO THAT FILE
-Aim:
-To write a C program to read, a file and insert text in that file
-Algorithm:
+### Aim:
+To write a C program to read, a file and insert text in that file.
+
+### Algorithm:
 1.	Include the necessary header file stdio.h.
 2.	Begin the main function.
 3.	Declare a file pointer p.
@@ -170,15 +168,14 @@ Use scanf to input the file name into the name array and the number of strings i
 -	If successful, continue to the next step.
 -	If unsuccessful, print an error message and exit the program with a non-zero status.
 6.	Print a message indicating that the file has been opened successfully.
-1.	Use a loop to input strings from the user and write them to the file using fputs.
-2.	Use fclose to close the file.
-3.	Print a message indicating that data has been added successfully.
-4.	End the main function.
-5.	Return 0 to indicate successful program execution.
+7.	Use a loop to input strings from the user and write them to the file using fputs.
+8.	Use fclose to close the file.
+9.	Print a message indicating that data has been added successfully.
+10.	End the main function.
+11.	Return 0 to indicate successful program execution.
  
-Program:
-
-````c
+### Program:
+```c
 #include <stdio.h> 
 
 int main(){
@@ -194,31 +191,25 @@ int main(){
     }
     printf("\nData added Successfully");
 }
-````
+```
 
 
+### Output:
 
-Output:
-
-
-<img width="640" height="296" alt="image" src="https://github.com/user-attachments/assets/0f54b8ef-df38-45ca-9245-fc78ab4f30d2" />
+<img width="640" height="296" alt="image" src="https://github.com/user-attachments/assets/cabd2553-af72-4f09-a981-cecda5d75e83" />
 
 
-
-
-
-
-Result:
+### Result:
 Thus, the program is verified successfully
 
+---
 
+## Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
 
-Ex No 5 : C PROGRAM TO DISPLAY STUDENT DETAILS USING STRUCTURE
-
-Aim:
+### Aim:
 The aim of this program is to dynamically allocate memory to store information about multiple subjects (name and marks), input the details for each subject, and then display the stored information. Finally, it frees the allocated memory to prevent memory leaks.
 
-Algorithm:
+### Algorithm:
 1.Input the number of subjects.
 
 2.Read the integer value n from the user, which represents the number of subjects.
@@ -245,9 +236,9 @@ Algorithm:
 
 13.End the program by returning 0.
 
-Program:
+### Program:
 
-````c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -277,19 +268,19 @@ int main() {
     return 0;
 }
 
-````
+```
 
 
-Output:
 
 
-<img width="394" height="266" alt="image" src="https://github.com/user-attachments/assets/1aa29cf6-8158-4c64-834f-4755f8c84f81" />
+### Output:
+
+<img width="394" height="266" alt="image" src="https://github.com/user-attachments/assets/59711b69-6a11-438a-bd1e-881fa34f1464" />
 
 
-## Result:
+
+
+
+### Result:
 Thus, the program is verified successfully
 
-
-
-Result:
-Thus, the program is verified successfully
