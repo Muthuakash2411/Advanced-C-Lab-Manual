@@ -15,7 +15,7 @@ Algorithm:
  
 Program:
 
-```
+```c
 struct Node   
 {  
 float data;  
@@ -54,7 +54,7 @@ Algorithm:
 4.	Set head to point to the next node in the stack.
  
 Program:
-```
+```c
 struct Node   
 {  
 float data;  
@@ -94,7 +94,7 @@ Algorithm:
  
 Program:
 
-```
+```c
 struct Node
 {
    int data;
@@ -145,7 +145,7 @@ Algorithm:
  
 Program:
 
-```
+```c
 struct Node
 {
    int data;
@@ -195,7 +195,7 @@ o	If the queue is not empty, return the data stored in the front node of the lin
 
 Program:
 
-```
+```c
 struct Node
 {
    float data;
